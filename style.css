@@ -1,0 +1,157 @@
+ body{
+    background-color: rgb(253, 234, 199)!important;
+} 
+.button:active
+.button:focus
+{
+  text-decoration: none!important;
+}
+span{
+  color: goldenrod;
+}
+
+h1{
+  color: orangered;
+  font-size: 45px!important;
+  text-align: center;
+  background:lightblue;
+  font-weight: bold!important;
+  border: 2px solid orangered;
+  border-radius: 20px;
+}
+.arrow{
+  position: absolute;
+  z-index: 9999;
+  width: fit-content!important;
+  margin-left:450px;
+  margin-top: 180px;
+}
+.room4{
+  background: brown;
+  min-height:290px;
+
+}
+.room2{
+  background: rgb(185, 94, 182);
+  min-height: 290px;
+  
+
+
+}
+.room3{
+  background: chocolate;
+  min-height: 290px;
+ 
+
+
+}
+.room1{
+  background: lightseagreen;
+  min-height: 290px;
+}
+.container{
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  position: relative;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid darkblue;
+}
+.rectangle {
+  height: 200px;
+  width: 6px;
+  background-color: red;
+  margin-left: 7px;
+}
+.rectangle2 {
+  height: 7px;
+  width: 20px;
+  background-color:darkblue;
+  /* margin-left: 7px; */
+}
+
+.box p{
+  margin-top: 20%;
+  font-size: 4rem;
+  color: blanchedalmond;
+  font-weight: bold;
+}
+.round{
+  background-color:rgb(200, 0, 0);
+  color: white;
+  height: 80px;
+  width: 160px;
+  margin-left: 25px;
+  font-size: 2rem;
+  font-weight: bolder;
+  border: 3px solid darkgreen;
+  border-radius: 25px;
+  
+}
+.rotate-box{
+  padding-top: 40px;
+}
+.btnstyle{
+  background-color:lightblue;
+  padding: 4px!important;
+  margin-top: 4px;
+  margin-bottom:4px;
+  margin-left: 25px;
+  border: 2px solid orangered;
+  border-radius: 5px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold!important;
+}
+/* .betbtn{
+  padding: 5px;
+} */
+
+.reset{
+  color: rgb(245, 245, 245);
+  margin-top:20px ;
+  margin-left: 25px;
+  padding:15px 30px;
+  background: rgba(9, 97, 13, 0.979);
+  font-size: 2rem;
+  font-weight: bold;
+  border: 3px solid red;
+  border-radius: 20px;
+  /* outline-style: none; */
+  outline: none;
+  /* cursor: pointer; */
+  
+}
+#msgbox{
+  height: 90px;
+  width: 240px;
+  background: rgb(187, 196, 214);
+  border: 2px solid orange;
+  border-radius: 5px!important;
+  margin-top:5px ;
+  text-align: center;
+  margin-left: 5px;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  /* padding: auto; */
+  word-wrap: break-word;
+
+}
+h3{
+  color:rgb(255, 217, 0);
+  font-size: 4rem!important;
+  font-weight: bold;
+}
+#box1{
+ 
+  text-align: right!important;
+}
+#box2{
+ 
+  text-align: right!important;
+}
